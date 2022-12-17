@@ -1,15 +1,17 @@
 
 div.gallery {
-  border: 1px solid #ccc;
+ 
 }
 
 div.gallery:hover {
-  border: 1px solid #777;
+ 
 }
 
 div.gallery img {
   width: 100%;
   height: auto;
+  border-radius: 10%;
+ 
 }
 
 div.desc {
@@ -50,4 +52,15 @@ h1{
 }
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+   
+}
+#btn{
+    border-radius: 10px;
+  
+    border: 1px;
+    background-color: rgb(141, 10, 173);
+    color: white;
+    height: 30px;
+     cursor: pointer;
 }
